@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -45,7 +45,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
- 
 
  /*---  end reset    ---*/
 
@@ -55,15 +54,13 @@ table {
   }
 
  html {
-   
+
    font-size: 18px;
 }
-
 
 /*********************************************
  /          *---  fonts   ---*
 /********************************************/
-
 
 @font-face {
     font-family: 'raleway';
@@ -75,7 +72,6 @@ table {
          url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
     font-weight: light;
     font-style: normal;
-
 }
 
 @font-face {
@@ -88,7 +84,6 @@ table {
          url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
     font-weight: light;
     font-style: italic;
-
 }
 
 @font-face {
@@ -101,7 +96,6 @@ table {
          url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: medium;
     font-style: normal;
-
 }
 
 @font-face {
@@ -114,7 +108,6 @@ table {
          url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
     font-weight: medium;
     font-style: italic;
-
 }
 /*++++++++++++++++++++++++++      playfair      ++++++++++++++++++++++++++++++++++*/
 
@@ -128,7 +121,6 @@ table {
          url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
     font-weight: bold;
     font-style: normal;
-
 }
 
 @font-face {
@@ -141,7 +133,6 @@ table {
          url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
     font-weight: bold;
     font-style: italic;
-
 }
 
 @font-face {
@@ -154,7 +145,6 @@ table {
          url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
     font-weight: normal;
     font-style: italic;
-
 }
 
 @font-face {
@@ -167,22 +157,18 @@ table {
          url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 h1 {
-    
-	font-size:4rem;
-
+    font-size:4rem;
 }
 
 h2 {
-
 	font-size:3rem;
 	font-style: italic;
 }
-h3 {
 
+h3 {
 	font-size: 1.5rem;
 	color: #e2574c;
 	padding: 1em 1em; /* product title padding*/
@@ -197,22 +183,20 @@ h3 {
  /          *---  end fonts    ---*
 /********************************************/
 header {
-
-	padding-top: 1em; 
-	padding-bottom: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
 }
 
 .hide-title {
-	display:none;
-	width:0;
-	height:0;
+		display:none;
+		width:0;
+		height:0;
 }
 
 .cart {
-	float: right;
-	width: 62px;
+		float: right;
+		width: 62px;
 }
-
 
 img {
     height: auto;
@@ -220,10 +204,9 @@ img {
 }
 
 .logo {
-	float: left;
-	width: 160px;
+		float: left;
+		width: 160px;
 }
-
 
 .fixed-width-container {
     width: 1240px;
@@ -233,78 +216,74 @@ img {
 
 .top-banner {
     background:
-        
-        linear-gradient( to bottom, rgba(255,0,0,.25) 0%, rgba(0,0,0,.25) 100% ),
-        url("../images/banner-girl.png") no-repeat center 60px,
-        url("../images/flower-bkgd.jpg")repeat-x center;
-	    background-size: cover, 250px 615px, contain;
-        height:550px;
-
+			url("../images/banner-girl.png") no-repeat center 60px,
+		  url("../images/flower-bkgd.jpg")repeat-x center;
+			background-size: 250px 615px, contain;
+		  height:550px;
 }
 
 .bottom-banner {
 	background:
 	    linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-		url("../images/wave-bkgd.jpg") no-repeat center bottom;
-		background-size: conatin;
-		background-color: #CCCCCC;
+			url("../images/wave-bkgd.jpg") no-repeat center bottom;
+			background-size: conatin;
+			background-color: #CCCCCC;
 	    height:350px;
 	    margin-top: 40px;
-
 }
-.products h2 {
-	text-align:center;
 
+.products h2 {
+			text-align:center;
 }
 
 .top-banner-text {
     font-family: 'Playfair', serif;
-	color: #FFFFFF;
-	text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
-	text-align:center;
-	position:relative;
-	top: 50%;
+		color: #FFFFFF;
+		text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+		text-align:center;
+		position:relative;
+		top: 50%;
 }
 
 .bottom-banner-text {
-	font-family: 'Playfair', serif;
-	text-align:center;
-	position:relative;
-	top: 50%;
+		font-family: 'Playfair', serif;
+		text-align:center;
+		position:relative;
+		top: 50%;
 }
 
 
 .uppercase-text {
-    font-family:'raleway',sans-serif;
-	font-size: .75rem;
-	text-transform: uppercase;
+	  font-family:'raleway',sans-serif;
+		font-size: .75rem;
+		text-transform: uppercase;
 }
 
-.price { 
+.price {
     font-family:'raleway',sans-serif;
     font-size: 1rem;
     color: gray;
-
 }
 
-.about-section p { 
-	font-family:'raleway',sans-serif;
-	font-size: 1.15rem;
-    color:#878787;
+.about-section p {
+		font-family:'raleway',sans-serif;
+		font-size: 1.15rem;
+	  color:#878787;
 }
 
-.about-border { border-bottom: solid 1px;
-	margin-bottom: 2rem;
+.about-border {
+		border-bottom: solid 1px;
+		margin-bottom: 2rem;
 
 }
 
 .about-section {     /* align section title and text to the center*/
-    
-    text-align:center;
-	padding: 60px 0 60px 0;
-	font-size: 1.5rem;
-	line-height: 1.5;
-	width: 720px;
+
+	  text-align:center;
+		padding: 60px 0 60px 0;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		width: 720px;
     margin: 0 auto;
 }
 
@@ -316,31 +295,27 @@ img {
 }
 
 .cta-section h2 {     /* align section title and text to the center*/
-
-	text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
-    }
+		text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+}
 
 
 .cta-section {     /* align section title and text to the center*/
-
-    color: #FFFFFF;
+		color: #FFFFFF;
     text-align:center;
-	padding: 90px 0 40px 0;
-	font-size: 1.5rem;
-	line-height: 1.5;
-	width: 720px;
+		padding: 90px 0 40px 0;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		width: 720px;
     margin: 0 auto;
-
-    
 }
 
-.cta-section p {  
-     font-family:'raleway',sans-serif;
-	 font-size: 1rem;
+.cta-section p {
+		font-family:'raleway',sans-serif;
+		font-size: 1rem;
 }
 
 input[type="email"] {
-	border-radius: 25px;
+		border-radius: 25px;
     padding: .5rem 1.75rem;
     padding-right: 150px;
     border: 0;
@@ -353,7 +328,7 @@ input[type="email"] {
 input[type="submit"] {
     border: 0;
     border-radius: 25px;
-	font-size:1rem;
+		font-size:1rem;
     color: white;
     font-weight: bold;
     padding: .25rem 1.5rem;
@@ -362,18 +337,18 @@ input[type="submit"] {
     top: .25rem;
     background: #e2574c;
     line-height: 2;
-  
+
 }
 
 .products li {
-	width:25%;
-    display: inline;
-	float: left;
-	text-align: center;
+		width:25%;
+	  display: inline;
+		float: left;
+		text-align: center;
 }
 
 ul.products {
-    margin-top: 60px; 
+    margin-top: 60px;
 }
 
 footer {
@@ -383,7 +358,6 @@ footer {
     color: #C0C0C0;
     background-color: #333;
     border-top: solid 5px #FFF;
-
 }
 
 
@@ -392,23 +366,21 @@ footer a {
 }
 
 .contact-group {
-	font-family: 'playfair', serif;
-	line-height: 1.5;
+		font-family: 'playfair', serif;
+		line-height: 1.5;
     float:left;
 }
 
 .copyright {
-	color: #FFF;
-	margin-bottom: 1rem;
-
+		color: #FFF;
+		margin-bottom: 1rem;
 }
 
 .social {
-	font-family: 'Raleway', sans-serif;
-	color: #FFF;
+		font-family: 'Raleway', sans-serif;
+		color: #FFF;
     float:right;
     padding-right:10%;
-
 }
 
 .social .social-name {
@@ -417,11 +389,9 @@ footer a {
 }
 
 .social i {
-	margin-bottom: 1rem;
+		margin-bottom: 1rem;
     min-width: 40px;
 }
-
-
 
 .social a {
     text-decoration:none;
@@ -434,22 +404,15 @@ footer a {
 
 .address {
      color:#999;
-
 }
 
 .contact {
 	  color: #FFF;
-      margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
-.clearfix:after {      
-	display: block;
-	content: "";
-	clear: both;
-	
+.clearfix:after {
+		display: block;
+		content: "";
+		clear: both;
 }
-
-
-
-
-

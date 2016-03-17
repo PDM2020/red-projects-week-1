@@ -10,6 +10,8 @@ A hand coded website with custom overlaying background images that centers.
 
 
 ### Built With:
+* Eric Meyer Reset for css3
+* embedded fonts
 * html5
 * css3
 * gradient overlays
@@ -17,4 +19,4 @@ A hand coded website with custom overlaying background images that centers.
 
 ##### Summary
 
-Aloha Apparel Co was a great way to get a taste of handcoding a website homepage. Using fontawesome for social media icons was enlightening. Building the newsletter sign up form was also an excellent learning experience.
+Aloha Apparel Co was a great way to get a taste of hand coding a website homepage in css3 and html5 mark up. I learned about adding multiple class selectors to a div. Using font awesome for social media icons was fun. Building the newsletter sign up form was also an excellent learning experience.
